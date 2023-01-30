@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styles from "./card.module.css";
 
-const Card = () => {
+const CardForm = () => {
   const [state, setState] = useState({
     name: "",
     email: "",
@@ -123,4 +123,4 @@ const Card = () => {
   );
 };
 
-export default Card;
+export default CardForm;

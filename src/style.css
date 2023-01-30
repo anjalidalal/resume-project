@@ -24,3 +24,16 @@
 .heading > p {
   margin: 10px 0px;
 }
+.cardContainer {
+  margin: auto;
+  width: 100vw;
+}
+
+@media (mon-width: 768px) {
+  .cardContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+  }
+}
